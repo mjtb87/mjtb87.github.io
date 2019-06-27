@@ -46,8 +46,12 @@ a:focus {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
+  width: 150px;
+  overflow-wrap: normal;
+  white-space: normal;
+  
 }
 
 .btn .fa, a.btn .fa {
@@ -57,7 +61,7 @@ a:focus {
 .btn-cta, a.btn-cta {
   font-weight: bold;
   font-size: 16px;
-  padding: 10px 30px;
+  padding: 10px 10px;
 }
 
 .btn-primary {
