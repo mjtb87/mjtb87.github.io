@@ -443,9 +443,10 @@ a:focus {
 }
 
 .about-section .items-wrapper .item-inner {
-  padding:20px;
+  padding:5px;
   height: 350px;
   width: 220px;
+  margin: 20px;
   border-style: solid;
 }
 

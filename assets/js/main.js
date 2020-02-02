@@ -16,7 +16,7 @@ $(document).ready(function() {
     $('body').scrollspy({ target: '#header', offset: 100});
     
     /* ======= ScrollTo ======= */
-    $('a.scrollto').on('click', function(e){
+    $('a.scrollTo').on('click', function(e){
         
         //store hash
         var target = this.hash;
